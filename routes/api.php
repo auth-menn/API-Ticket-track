@@ -12,5 +12,5 @@ route::middleware('auth:sanctum')->group(function () {
     route::get('/me', [AuthController::class, 'me']);
     route::post('/logout', [AuthController::class, 'logout']);
     
-    route::post('/tickets', [TicketController::class, 'index']);
+    route::get('/tickets', [TicketController::class, 'index']);
 });

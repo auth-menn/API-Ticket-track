@@ -2,6 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
+class TicketController extends Controller
+{
+    //
+}
+<?php
+
+namespace App\Http\Controllers;
+
 use App\Models\Ticket;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
